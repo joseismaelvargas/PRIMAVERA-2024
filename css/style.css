@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&family=SUSE:wght@100..800&display=swap');
+
+body{
+    background-color: #111110;
+    background-image: linear-gradient(90deg, #050505 0%, #050505c0 100%);
+    
+}
+
+.buttonregalo{
+    width: 200px;
+}
+.title{
+    color: white;
+}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    /* font-size: 100PX; */
+    margin: 200PX 1px;
+    color: rgb(241, 241, 27);
+    box-shadow:-20px 40px 200px #e7e67d;
+    animation: palpitar 0.5s linear infinite alternate;
+ 
+    
+    
+  }
+  .parrafo{
+    color: yellow;
+    font-weight: bold;
+    margin: 0px 20px;
+  }
+  /* .caja{
+    margin: 200px;
+  } */
+  
+  .button{
+   background-color: yellow;
+   color: rgb(36, 35, 35);
+   font-weight: bold;
+   border: solid white;
+   box-shadow:  2px 2px 3px 3px rgb(167, 167, 43);
+   animation: palpitar 0.5s linear infinite alternate;
+   padding: 10px 20px;
+  }
+  .button:hover{
+    background-color: yellow;
+    border:  solid white;
+    color: black;
+  }
+@keyframes palpitar{
+    0%{transform: rotate(0deg) scale(1.10)}
+    80%{transform: rotate(0deg)scale(1.0)}
+    100%{transform: rotate(0deg) scale(0.8)};}
