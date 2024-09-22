@@ -71,7 +71,7 @@ div{
 
 @media only screen and (max-width: 600px) {
         .archivo-black-regular {
-            font-size: 10vw; /* Adjust for smaller screens */
+            font-size: 9vw; /* Adjust for smaller screens */
             margin: 150px 1px;
         }
         div{
