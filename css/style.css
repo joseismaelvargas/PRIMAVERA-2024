@@ -46,9 +46,10 @@ div{
     margin: 0px 5vw; /* Responsive margin */
     font-size: 4vw; /* Responsive font size */
   }
-  /* .caja{
-    margin: 200px;
-  } */
+  .abrir{
+    text-decoration: none;
+    color: black;
+  }
   
   .button{
    background-color: yellow;
@@ -58,6 +59,7 @@ div{
    box-shadow:  2px 2px 3px 3px rgb(255, 255, 114);
    animation: palpitar 0.5s linear infinite alternate;
    padding: 10px 20px;
+   text-decoration: none;
   }
   .button:hover{
     background-color: yellow;
